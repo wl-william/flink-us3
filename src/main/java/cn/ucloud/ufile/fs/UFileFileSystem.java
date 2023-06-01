@@ -30,7 +30,7 @@ import static org.apache.hadoop.fs.CommonConfigurationKeysPublic.IO_FILE_BUFFER_
 
 public class UFileFileSystem extends org.apache.hadoop.fs.FileSystem {
     /** UFile文件系统的Scheme名称 */
-    public static String SCHEME = "ufile";
+    public static String SCHEME = "us3";
 
     public static Map<String, String> defaultUserMeta = null;
 
